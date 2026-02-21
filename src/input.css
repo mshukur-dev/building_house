@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    color: #787A80;
+}
+
+.active {
+    color: #FF5A30;
+}
+
+.btn {
+    padding: 14px 40px;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    background: #FF5A30;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h1{
+    font-size: 72px;
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
